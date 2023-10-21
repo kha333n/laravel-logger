@@ -1,6 +1,6 @@
 {
-    "name": "jeremykenedy/laravel-logger",
-    "description": "Laravel Logger Package",
+    "name": "kha333n/laravel-logger",
+    "description": "Laravel Logger Package | Forked from jeremykenedy/laravel-logger",
     "keywords": [
             "Laravel activity",
             "Laravel activity logger",
@@ -12,11 +12,10 @@
     "type": "package",
     "authors": [
         {
-            "name": "jeremykenedy",
-            "email": "jeremykenedy@gmail.com"
+            "name": "kha333n",
+            "email": "kha333n@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.3.0|^8.0",
         "jaybizzle/laravel-crawler-detect": "1.*",
