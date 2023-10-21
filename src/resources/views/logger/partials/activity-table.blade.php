@@ -69,7 +69,9 @@ if (request()->is('activity/cleared')) {
                     <td>
                         <small>
                             @if($hoverable)
-                                {{ $activity->id }}
+                                <a href="{{ url($prependUrl . $activity->id) }}">
+                                    {{ $activity->id }}
+                                </a>
                             @else
                                 <a href="{{ url($prependUrl . $activity->id) }}">
                                     {{ $activity->id }}
